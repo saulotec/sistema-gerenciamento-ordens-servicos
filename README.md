@@ -16,10 +16,10 @@ O sistema cabe muitas melhorias e novas funcionalidades, segue algumas fotos:
 ## Cadastrar ou buscar pelo nome ou número de indentificação para gerar OS.  
 <img src="assets/images-git/cadastro-e-busca-cliente.png" >
 
-## Cadastrar editar ou visualizar fornecedores.
+## Cadastrar, editar ou visualizar fornecedores.
 <img src="assets/images-git/cadastrar-visualizar-editar-fornecedor.png" >
 
-## Cadastrar editar ou visualizar Cliente.
+## Cadastrar, editar ou visualizar Cliente.
 <img src="assets/images-git/cadastrar-visualizar-editar-cliente.png" >
 
 ## OSs do cliente.
