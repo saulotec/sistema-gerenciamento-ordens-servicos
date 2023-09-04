@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /Controle_de_Ordem_de_Servico/index.php?url=$1 [QSL,L]

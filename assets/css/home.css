@@ -1,0 +1,41 @@
+#paiordem{
+	
+	/*background-color: yellow;*/
+	
+	height:auto;
+	display:flex;
+	padding:0px 20px;		
+	flex-wrap:wrap;
+	justify-content:space-around;
+	
+}
+div #ordem{
+	flex:1 220px;
+	height:80px;
+	
+	margin:10px;
+	padding:0px 40px;	
+	background-color: white;	
+	border-radius: 5px;
+	box-shadow: 10px 5px 4px rgba(0,0,0,0.1);
+	font-size: 17px;	
+	border-left: 5px #1469d6 solid;
+	
+}
+b{
+	font-size: 25px;
+
+}
+
+#topo{
+	display:block;
+	flex:100%;		
+	padding:0px 20px;
+	color:rgba(0,0,0,0.7);
+	/*background-color: yellow;*/	
+}
+
+
+
+
+

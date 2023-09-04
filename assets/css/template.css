@@ -1,0 +1,173 @@
+/*Estilização do meu template*/
+html, body{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	background:white;
+	font-family: arial, sans-serif;
+}
+
+.container{
+	display:grid;
+	grid-template-columns:1fr 6fr;
+	grid-template-rows:12vh 80vh 8vh;
+	grid-template-areas:"m h"
+						"m a"
+						"m f";
+	
+
+}
+
+header{
+	background-color: #3f51b5;
+	/*background:rgba(236, 112, 0,0.79);*/
+	grid-area:h;
+	
+	
+	
+
+}
+header div{
+	padding:0px;
+	color:rgba(0, 0, 0, 0.8);
+	text-transform: uppercase;
+	font-size:20px;
+	font-weight:bold;
+	background-color: yellow;
+}
+
+main{
+	
+	/*background-color: #4e73df;*/
+	/*background-color: #004d8d;*/
+	background-color:#1469d6;
+	/*background-color:#014b96;*/
+	grid-area:m;
+	padding-top:0px;
+	padding-left:10px;
+	padding-right: 10px;
+	font-size:17px;
+	text-align: left;
+	color:rgba(255,255,255,0.8);
+	font-weight: bold;
+	
+	
+}
+.topo_main{
+	height:12vh;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	
+	/*background-color: chartreuse;*/
+	border-bottom: 2px rgba(255,255,255,0.6) solid;
+	
+	
+}
+.os{
+	padding:10px;
+	color:rgba(255,255,255,1);
+	
+}
+.meio{
+	padding:0px;	
+	border-bottom: 2px rgba(255,255,255,0.6) solid;
+	
+}
+
+ul{
+	list-style:none;
+	margin-left:0px;
+	margin-top:0;
+	
+	
+	
+}
+a{
+	text-decoration:none;
+	display:block;
+	color:rgba(255,255,255,0.8);
+	padding:10px 0px 10px 0px;
+	
+	text-align: start;
+}
+li{
+	display:block;
+	margin-left: -40px;
+	padding:1px;
+}
+a img{
+	margin:0px 10px 0px 0px ;
+	
+}
+a:hover{
+	color:rgba(255,255,255,1);
+}
+
+.ls{
+	/*line-height:12vh;
+	background-color: #e67f22;*/
+	margin-left:15px;
+	color:rgba(255,255,255,1);
+}
+ 
+/*.lm img{
+	
+	background-color: crimson;	
+
+}*/
+
+
+aside{
+	background:#e1e1e1;
+	grid-area:a;
+	overflow: auto;
+	display:flex;
+	flex-wrap: wrap;
+
+}
+.asideblue{
+	padding:20px;
+	font-size:20px;
+	font-weight: bold;
+	color:#1469d6;
+	
+}
+.asidecz{
+	padding:20px;
+	font-size:20px;
+	font-weight: 1000;
+	color:#474749;
+}
+
+footer{
+	background:rgba(72, 72, 72, 1);
+	grid-area:f;
+	
+
+}
+.divfooter{
+	
+	font-size:14px;
+	color:white;
+	font-weight: bold;
+	text-align: center;
+	margin-top:0;
+	
+	line-height: 8vh;
+	position:fixed;
+	position:fixed;
+	left:50%;
+	margin-left:-171.23px;
+}
+.submenu{
+	display:none;
+}
+li:hover .submenu{
+	display:block;	
+	background-color:rgba(20,105,255,1);
+	padding-left:10px;
+	width:auto;
+
+}

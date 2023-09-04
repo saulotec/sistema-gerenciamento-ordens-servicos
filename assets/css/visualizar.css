@@ -1,0 +1,82 @@
+div#visu{
+	padding: 15px;
+	font-size: 17px;
+
+}
+select{
+	padding:2px;	
+	font-size: 15px;
+	width:415px;
+}
+input {
+	width:405px;
+	padding:2px;	
+	font-size: 15px;
+}
+
+label{
+	display: inline-table;
+	margin-bottom:15px;
+	margin-right:15px;
+}
+
+table{
+	border:1px solid;
+	border-collapse:collapse; 
+	background-color: white;	
+}
+table tr{
+	border:1px solid rgba(0,0,0,0.3); 	
+
+}
+table th{
+	padding:10px; 	
+	text-align: start;
+	border:1px solid rgba(0,0,0,0.3);
+}
+table td{
+	padding:10px; 	
+	border:1px solid rgba(0,0,0,0.3);
+
+}
+tbody tr:hover{
+	background-color: rgba(0,0,0,0.1);
+
+}
+a#table{
+	color:black;
+}
+a#table:hover{
+	color:black;
+}
+h1{
+	color: rgba(0,0,0,0.7);
+}
+h2{
+	
+	font-size:17px;
+	padding: 3px;
+    background-color: #1469d6;
+    margin: 0px 15px 5px 0px;
+    color: rgba(255,255,255,0.8);
+    text-align: center;
+    border-radius: 5px;
+}
+#retorno{
+	font-size:17px;
+	padding: 3px;
+    background-color: yellow;
+    margin: 0px 15px 5px 0px;
+    color: rgba(0,0,0,0.8);
+    text-align: center;
+    border-radius: 5px;
+}
+a#aa{
+	color:rgba(255,255,255,0.8);
+	width:70px;
+	padding:5px;
+	font-size: 17px;
+	background-color:#1469d6;
+	text-align: center;
+	margin:auto;
+}
